@@ -9,8 +9,15 @@ import getOppositeNum from './src/oppositeNum.js';
 import getCountDigit from './src/countDigit.js';
 import isPalindrom from './src/isPalindrom.js';
 import getSumDegree from './src/sumDegree.js';
-// import myLiveFunction from './src/myLiveFunction.js';
+import getMonth from './src/getMonth.js';
+import getDay from './src/days.js';
+import getFirstWords from './src/getFirstWords.js';
+import greeting from './src/greeting.js';
+import showNumbersAndAge from './src/showNumbersAndAge.js';
+import getAgeStatus from './src/getAgeStatus.js';
+import fizzbuzz from './src/fizzbuzz.js';
 import { per, myLiveFunction } from './src/myLiveFunction.js';
+
 
 // сумма чисел от 0 до a включительно
 
@@ -74,9 +81,42 @@ let i = 5;
 
 console.log(`10) Сумма квадратов чисел от 1 до ${i} равна ${getSumDegree(i)}`)
 
+// Сделайте функцию, которая принимает параметром номер месяца, и возвращает название этого месяца (Добавить обработку варинта если такого месяца нет)
+
+console.log(`11) ${getMonth(2)}`);
+
+// Сделайте функцию, которая принимает параметром число от 1 до 7, а возвращает день недели на русском языке.
+
+console.log(`12) ${getDay(3)}`);
+
+// Написать функцию, которая принимает строку (в этом тексте 3-5 предложений), верните каждое первое слово в каждом предложении, через запятую.
+
+console.log(`13) ${getFirstWords('Жил был Вася. Много ел и пил. Через год стал толстым')}`);
+
+// Написать функцию, которой передаем имя, и она возвращает приветствие в зависимости от времени суток (Доброе утро\день\вечер\ночи Иван)
+
+console.log(`14) ${greeting('Рудольф')}`);
+
+// 4. Вывести числа от 1 до 100 в столбец. К каждой цифре подписать состояние возраста (1-17 ребенок, 18-30 - молодой, 30-55 - зрелый, от 55 - старый). Например. 33 - зрелый
+
+console.log(`${showNumbersAndAge()}`);
+
+// 5. Создай новую функцию, в которую передаешь имя и возраст человека и получаешь сообщение (Иван имеет возраст 44 и он зрелый). А также вызови внутри своей функции, функцию из прошлого задания
+
+console.log(`${getAgeStatus('Гундольф', '66')}`);
+
+
+// Требуется написать функцию, выводящую в консоль числа от 1 до n, где n — это целое число, которая функция принимает в качестве параметра, с такими условиями:
+// вывод fizz вместо чисел, кратных 3;
+// вывод buzz вместо чисел, кратных 5;
+// вывод fizzbuzz вместо чисел, кратных как 3, так и 5.
+
+
+console.log(fizzbuzz(50));
+
+
 // Рузальтат прожитой жизни представлен в виде объекта 
 
-console.log(`11) ${JSON.stringify(myLiveFunction(per), null, 2)}`);
-
+console.log(`${JSON.stringify(myLiveFunction(per), null, 2)}`);
 
 
