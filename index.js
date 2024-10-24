@@ -9,6 +9,8 @@ import getOppositeNum from './src/oppositeNum.js';
 import getCountDigit from './src/countDigit.js';
 import isPalindrom from './src/isPalindrom.js';
 import getSumDegree from './src/sumDegree.js';
+// import myLiveFunction from './src/myLiveFunction.js';
+import { per, myLiveFunction } from './src/myLiveFunction.js';
 
 // сумма чисел от 0 до a включительно
 
@@ -71,4 +73,10 @@ console.log(`9) ${isPalindrom(h)}`);
 let i = 5;
 
 console.log(`10) Сумма квадратов чисел от 1 до ${i} равна ${getSumDegree(i)}`)
+
+// Рузальтат прожитой жизни представлен в виде объекта 
+
+console.log(`11) ${JSON.stringify(myLiveFunction(per), null, 2)}`);
+
+
 
