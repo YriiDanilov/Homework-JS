@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normilize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="module" src="js/kassa.js" defer></script>
+  <title>Касса</title>
+</head>
+<body>
+  <div class="products">
+    <a href="class.html">товары</a>
+  </div>
+  <div class="wrapper">
+      <div class="title">Касса самообслуживания</div>
+      <fieldset>
+        <legend class="title-search">Поиск товаров</legend>
+        <input type="text" class="searchInput" placeholder="Введите название товара">
+        <div class="search"></div>
+      </fieldset>
+      <fieldset>
+        <legend class="title-search">Окно ввода ID</legend>
+        <form class="form" action="">
+        <input type="number" name="id" placeholder="Введите id товара" class="inputAdd"/>
+        <button class="addButton">Добавить</button>
+        <div class="cart"></div>
+      </fieldset>
+      <h2 class="total">Итог:</h2>
+      <button class="print">Печать чека</button>
+
+    
+    </div>
+</body>
+</html>

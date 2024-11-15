@@ -1,22 +1,22 @@
-import getSum from './src/sum.js';
-import getFactorial from './src/factorial.js';
-import getEvenMumbers from './src/even.js';
-import getNotEvenMumbers from './src/notEven.js';
-import isPrimeNumber from './src/primeNumber.js';
-import getMultTable from './src/multiplicationTable.js';
-import getSumEach from './src/sumEach.js';
-import getOppositeNum from './src/oppositeNum.js';
-import getCountDigit from './src/countDigit.js';
-import isPalindrom from './src/isPalindrom.js';
-import getSumDegree from './src/sumDegree.js';
-import getMonth from './src/getMonth.js';
-import getDay from './src/days.js';
-import getFirstWords from './src/getFirstWords.js';
-import greeting from './src/greeting.js';
-import showNumbersAndAge from './src/showNumbersAndAge.js';
-import getAgeStatus from './src/getAgeStatus.js';
-import fizzbuzz from './src/fizzbuzz.js';
-import { per, myLiveFunction } from './src/myLiveFunction.js';
+import getSum from './js/src/sum.js';
+import getFactorial from "./src/js/factorial.js";
+import getEvenMumbers from "./src/js/even.js";
+import getNotEvenMumbers from "./src/js/notEven.js";
+import isPrimeNumber from "./src/js/primeNumber.js";
+import getMultTable from "./src/js/multiplicationTable.js";
+import getSumEach from "./src/js/sumEach.js";
+import getOppositeNum from "./js/src/oppositeNum.js";
+import getCountDigit from "./js/src/countDigit.js";
+import isPalindrom from "./src/js/isPalindrom.js";
+import getSumDegree from "./src/js/sumDegree.js";
+import getMonth from "./src/js/getMonth.js";
+import getDay from "./src/js/days.js";
+import getFirstWords from "./src/js/getFirstWords.js";
+import greeting from "./src/js/greeting.js";
+import showNumbersAndAge from "./src/js/showNumbersAndAge.js";
+import getAgeStatus from "./src/js/getAgeStatus.js";
+import fizzbuzz from "./src/js/fizzbuzz.js";
+import { per, myLiveFunction } from "./src/js/myLiveFunction.js";
 
 
 // сумма чисел от 0 до a включительно
