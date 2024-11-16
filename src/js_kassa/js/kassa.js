@@ -10,16 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const total = document.querySelector(".total");
   const print = document.querySelector(".print");
 
-  searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.trim();
-    const items = data.filter((item) => item.title.toLowerCase().includes(value.toLowerCase()));
-    if (value === "") {
-      search.innerHTML = "";
-    } else {
-      search.innerHTML = items.map((item) => `<div><img src="${item.src}" class="img-item"><span>${item.title} --- id = ${item.id} price = ${item.price}</span></div`);
-    }
-  });
-
     searchInput.addEventListener("input", (e) => {
       const trimmedValue = e.target.value.trim();
       const searchResults = data.filter((item) => item.title.toLowerCase().includes(trimmedValue.toLowerCase()));
